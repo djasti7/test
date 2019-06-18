@@ -32,3 +32,4 @@ jobs:
   - put: deploy-dev-env
     params:
       manifest: service-repo/TDDDemoApp/manifest.yml
+      path: service-repo/TDDDemoApp
