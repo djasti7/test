@@ -31,4 +31,4 @@ jobs:
     file: service-repo/ci/tasks/build.yml
   - put: deploy-dev-env
     params:
-      manifest: service-repo/manifest.yml
+      manifest: service-repo/TDDDemoApp/manifest.yml
